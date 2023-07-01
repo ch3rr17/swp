@@ -8,79 +8,25 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/styles/styles.css">
+ 
     <link rel="icon"  type="image/png" href="/assets/img/favicon/favicon.ico">
     <!-- FONT CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Caveat+Brush" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <!-- Navigation -->
-    <div id="navigation">
-       <div class="container">
-            <div class="logo">
-                <img id="logo" src="/assets/img/logo-700-by-250.png" alt="Swiche Photography logo">
-            </div>
-            <div class="button-container">
-                <!-- <p><a class="button" href="https://prints.swichepix.com/" target="_blank" style="text-decoration: none;">Click here</a></p> -->
-                <p>Visit: <a href="https://prints.swichepix.com/" target="_blank" style="color: #fff;"> https://prints.swichepix.com/ </a> <br>
-                    password: swicheprints</p>
-            </div>
-            <!-- <div id="menu">
-                <img src="/assets/img/mobile-menu.png" alt="" id="mobile-menu"> 
-                <ul id="desktop-menu">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Print Gallery - Coming soon!</li>
-                    <li>Contact Me</li>
-                </ul>
-            </div> -->
-       </div>
-    </div>
-
-    <div class="content-container">
-         <!-- film vertical scroll -->
-        <div class="banner-container">
-            <div class="film-banner-container">
-                <!-- <img src="/assets/img/film-strip-top-banner.jpg" alt=""> -->
-                <div class="pic">
-                    <div class="pic-col">
-                        <img src="/assets/img/cherr-home.jpg" alt="">
-                         <h1 class="intro-title">Capturing Moments</h1>
-                    </div>
-                    <div class="pic-col">
-                         <img src="/assets/img/view-moments.jpg" alt="">
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-        <!-- content -->
-        <div class="about-me">
-            <div class="about-me-container">
-                <div class="col">
-                    <h2>About me</h2>
-                    <p><img id="about-me-pic" src="/assets/img/nikon-film.jpg" alt="film"></p>
-                </div>
-                <div class="col">
-                    <p>Developer day&night, photographer 24/7. <br>
-                    Everywhere I go, my eyes seek for . . . <br>
-                    Portrait, nature, food, laughter, family, friends, memories and on the road - that moment is frozen and unravels once you take a glance. <br>
-                    These are photos that I love to take. <br>
-                    Sharing some of my favorite ones and hope you’d enjoy.</p>
-                </div>
-                
-                
-            </div>
-        </div>
-    </div>
+    <h1>SITE MAINTENANCE - BE BACK SOON!</h1>
 
     <footer>
         <div>
-             © 2022 Swiche Photography. All rights reserved.
+             © <span id="copyright">  </span> Swiche Photography. All rights reserved.
         </div>
     </footer>
-   
+   <script>
+    var copyrightDate = new Date().getFullYear() + ' ';
+     document.getElementById('copyright').innerHTML = copyrightDate;
+   </script>
 </body>
 </html>
